@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. HelloWorld", "00. HelloWorld", "{0751FAFF-0525-46F3-8EB4-07CE5B6F2C69}"
+	ProjectSection(SolutionItems) = preProject
+		..\00 - HelloWorld\helloworld.cs = ..\00 - HelloWorld\helloworld.cs
+		..\00 - HelloWorld\helloworld.exe = ..\00 - HelloWorld\helloworld.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Variáveis", "01. Variáveis", "{619AFF0B-58F5-48A3-83C5-C034CA30C6EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variaveis", "Variaveis\Variaveis.csproj", "{4D406ECE-7F07-4744-A79E-42BEAE3CB8CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Conversões", "02. Conversões", "{0EC9FB5A-1B33-4589-AA59-BAF06EF1D0D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casting", "Casting\Casting.csproj", "{8891FEE0-CE3A-454D-88BC-ADA82934D959}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. StringBuilder", "03. StringBuilder", "{F65D65FF-7CB1-41E8-AE90-525BCF678B67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManipulandoStrings", "ManipulandoStrings\ManipulandoStrings.csproj", "{EEF2EB0E-A54B-4FBE-A6F8-FEE58E45FAA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Fluxos", "04. Fluxos", "{C3AD21F4-3008-454E-BF43-4056177CE992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluxos", "Fluxos\Fluxos.csproj", "{6AB2DF45-6260-4709-BB8B-F6D501E95722}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Loops", "05. Loops", "{E2C28E0A-A431-483B-9561-A740DA978983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{B990C9D7-7340-4858-8F61-CF0483971577}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Arrays", "6. Arrays", "{D631C468-A448-48C0-8D4F-EF74DEEDA028}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsandoArrays", "UsandoArrays\UsandoArrays.csproj", "{5D429C24-CA5D-4BFE-8119-0BEF6E7C2795}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D406ECE-7F07-4744-A79E-42BEAE3CB8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D406ECE-7F07-4744-A79E-42BEAE3CB8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D406ECE-7F07-4744-A79E-42BEAE3CB8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D406ECE-7F07-4744-A79E-42BEAE3CB8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8891FEE0-CE3A-454D-88BC-ADA82934D959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8891FEE0-CE3A-454D-88BC-ADA82934D959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8891FEE0-CE3A-454D-88BC-ADA82934D959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8891FEE0-CE3A-454D-88BC-ADA82934D959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF2EB0E-A54B-4FBE-A6F8-FEE58E45FAA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF2EB0E-A54B-4FBE-A6F8-FEE58E45FAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF2EB0E-A54B-4FBE-A6F8-FEE58E45FAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF2EB0E-A54B-4FBE-A6F8-FEE58E45FAA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB2DF45-6260-4709-BB8B-F6D501E95722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB2DF45-6260-4709-BB8B-F6D501E95722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB2DF45-6260-4709-BB8B-F6D501E95722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB2DF45-6260-4709-BB8B-F6D501E95722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B990C9D7-7340-4858-8F61-CF0483971577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B990C9D7-7340-4858-8F61-CF0483971577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B990C9D7-7340-4858-8F61-CF0483971577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B990C9D7-7340-4858-8F61-CF0483971577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D429C24-CA5D-4BFE-8119-0BEF6E7C2795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D429C24-CA5D-4BFE-8119-0BEF6E7C2795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D429C24-CA5D-4BFE-8119-0BEF6E7C2795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D429C24-CA5D-4BFE-8119-0BEF6E7C2795}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D406ECE-7F07-4744-A79E-42BEAE3CB8CC} = {619AFF0B-58F5-48A3-83C5-C034CA30C6EA}
+		{8891FEE0-CE3A-454D-88BC-ADA82934D959} = {0EC9FB5A-1B33-4589-AA59-BAF06EF1D0D2}
+		{EEF2EB0E-A54B-4FBE-A6F8-FEE58E45FAA1} = {F65D65FF-7CB1-41E8-AE90-525BCF678B67}
+		{6AB2DF45-6260-4709-BB8B-F6D501E95722} = {C3AD21F4-3008-454E-BF43-4056177CE992}
+		{B990C9D7-7340-4858-8F61-CF0483971577} = {E2C28E0A-A431-483B-9561-A740DA978983}
+		{5D429C24-CA5D-4BFE-8119-0BEF6E7C2795} = {D631C468-A448-48C0-8D4F-EF74DEEDA028}
+	EndGlobalSection
+EndGlobal
